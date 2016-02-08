@@ -30,9 +30,10 @@ npm install oppear
 - And some optimizations are done.
 > You can check details of those at [document page](http://beginnero.github.io/O-ppear/).
 
-## OppearLoader Parameter
+### OppearLoader Parameter
 - disAppear
-## Oppear Parameter
+
+### Oppear Parameter
 - First parameter
 	- offset
 	- direction
