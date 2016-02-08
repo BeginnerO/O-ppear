@@ -28,6 +28,7 @@ npm install oppear
 - firstAppear parameter is added.
 - Loader for Oppear is newly added.
 - And some optimizations are done.
+
 > You can check details of those at [document page](http://beginnero.github.io/O-ppear/).
 
 ## OppearLoader Parameter
