@@ -7,17 +7,17 @@ npm install oppear
 ```
 
 ## Quick Start
-1. Import jQuery and O-ppear javascript files.
+1.Import jQuery and O-ppear javascript files.
 ```
 <script src='jQuery.js'></script>
 <script src='O-ppear.js'></script>
 ```
-2. HTML mark up
+2.HTML mark up
 ```
 <div class='example1'>this is exmaple</div>
 ```
 
-3. Javascript
+3.Javascript
 ```
 <script src='jQuery.js'>
     $('.example1').Oppear();
