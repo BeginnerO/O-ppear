@@ -1,4 +1,4 @@
-/*O-ppear 1.1.0
+/*O-ppear 1.1.1
  *
  *
  *Copyright (C) 2015 BeginnerO
@@ -116,7 +116,7 @@
                         appearance = true;
                         Appear(options,$Opp,preTranCss);
                     }
-                },options.delay);
+                },options.delay+1);
             });
         });
     }

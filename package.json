@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      "oppear",
+      "/Users/hyeonjunoh/Sites/O-ppear"
+    ]
+  ],
+  "_from": "oppear@*",
+  "_id": "oppear@1.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/oppear",
+  "_nodeVersion": "5.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-9-west.internal.npmjs.com",
+    "tmp": "tmp/oppear-1.1.0.tgz_1454914776459_0.05714002810418606"
+  },
+  "_npmUser": {
+    "email": "dhguswns23@naver.com",
+    "name": "beginnero"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "oppear",
+    "raw": "oppear",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shasum": "3b9ba6f0338a1726071f92d4df4b1e5d87868b44",
+  "_shrinkwrap": null,
+  "_spec": "oppear",
+  "_where": "/Users/hyeonjunoh/Sites/O-ppear",
+  "author": {
+    "email": "dhguswns23@naver.com",
+    "name": "beginnero"
+  },
+  "bugs": {
+    "url": "https://github.com/BeginnerO/O-ppear/issues"
+  },
+  "dependencies": {},
+  "description": "animator detecting window scroll. You can check what is O-ppear clearly seeing http://beginnero.github.io/O-ppear/",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "3b9ba6f0338a1726071f92d4df4b1e5d87868b44",
+    "tarball": "http://registry.npmjs.org/oppear/-/oppear-1.1.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "gitHead": "1fa7318708bf6038eb468e4049898cdd3f4f0bc0",
+  "homepage": "https://github.com/BeginnerO/O-ppear#readme",
+  "keywords": [
+    "O-ppear",
+    "animator",
+    "jquery",
+    "jquery plugin",
+    "oppear"
+  ],
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "beginnero",
+      "email": "dhguswns23@naver.com"
+    }
+  ],
+  "name": "oppear",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeginnerO/O-ppear.git"
+  },
+  "scripts": {},
+  "version": "1.1.1"
+}
