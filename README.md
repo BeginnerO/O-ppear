@@ -29,6 +29,11 @@ npm install oppear
 - Loader for Oppear is newly added.
 - And some optimizations are done.
 
+##Bug Fix
+
+### V 1.1.1
+- Bugs at firefox browser are fixed.
+
 > You can check details of those at [document page](http://beginnero.github.io/O-ppear/).
 
 ## OppearLoader Parameter
