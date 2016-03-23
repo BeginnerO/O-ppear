@@ -32,6 +32,7 @@ npm install oppear
 ##Bug Fix
 ### V 1.1.2
 - transition for webkit engine is added.(-webkit-transition)
+
 ### V 1.1.1
 - Bugs at firefox browser are fixed.
 
