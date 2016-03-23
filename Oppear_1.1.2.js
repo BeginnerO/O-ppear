@@ -1,4 +1,4 @@
-/*O-ppear 1.1.1
+/*O-ppear 1.1.2
  *
  *
  *Copyright (C) 2015 BeginnerO
@@ -30,7 +30,8 @@
         function Appear(options,$Opp,preTranCss){
             appearance = true;
             $Opp
-                .css('transition',options.transition);
+                .css('transition',options.transition)
+                .css('-webkit-transition',options.transition);
             if(options.defaultCSS){
                 $Opp
                     .css('opacity','1')
@@ -44,12 +45,14 @@
             if(!options.disappear){
                 setTimeout(function(){
                     $Opp
-                        .css('transition',preTranCss);
+                        .css('transition',preTranCss)
+                        .css('-webkit-transition',preTranCss);
                 },1);
             }
         }
         function Disppear(options,$Opp,defCSS){
-            $Opp.css('transition',options.transition);
+            $Opp.css('transition',options.transition)
+            .css('-webkit-transition',options.transition);
             setTimeout(function(){
                 for(var property in defCSS){
                     $Opp.css(property,defCSS[property]);
@@ -69,7 +72,8 @@
                 left : 'translateX('+options.distance+')'};
             var $Opp = $(this);
             var preTranCss = $Opp.css('transition');
-            $Opp.css('transition','all 0s');//For deleting initial transition.
+            $Opp.css('transition','all 0s')
+                .css('-webkit-transition','all 0s');//For deleting initial transition.
 
             $(document).on('ready',function(){
                 setTimeout(function(){
